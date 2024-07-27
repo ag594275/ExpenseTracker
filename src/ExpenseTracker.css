@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    gap: 20px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+
+.form-field input{
+    border: 2px solid black;
+    height: 35px;
+    text-align: start;
+}
+
+input[type=text]{
+    padding: 8px;
+}
+
+input[type=number]{
+    padding: 8px;
+}
+
+.expButton{
+    background-color: rgb(78, 120, 237);
+    color: white;
+    width: 60%;
+    height: 35px;
+    cursor: pointer;
+}
+
+.main ul{
+    list-style: none;
+    padding: 0;
+    
+    
+}
+
+.main ul li{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    gap: 80px;
+    margin-bottom: 5px;
+}
+
+.main ul li span{
+    font-weight: bold;
+}
+
+.main ul li button{
+    background-color: red;
+    color: white;
+    height: 25px;
+    width: 55px;
+    border-radius: 10px;
+    cursor: pointer;
+}
